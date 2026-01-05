@@ -9,7 +9,9 @@ from task.app.main import run
 #  User massage: Name a random animal
 
 run(
-    deployment_name='gpt-4o',
+    deployment_name="gpt-4o",
+    seed=378,
+    n=5,
     # TODO:
     #  1. Use `seed` parameter with value 42 (or whatever you want)
     #  2. Use `n` parameter with value 5
